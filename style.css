@@ -1,0 +1,146 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(206, 209, 219);
+}
+
+body{
+    font-family: sans-serif;
+
+}
+
+.hero{
+    background-color: #7c109a;
+    color: #fff;
+    padding: 50px 30px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.hero::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10px;
+    background: linear-gradient(to left, rgb(212, 0, 255), #7c109a);
+}
+
+.hero::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 10px;
+    background: linear-gradient(to right, rgb(212, 0, 255), #7c109a);
+}
+
+.hero h1{
+    font-weight: normal;
+    font-style: 6rem;
+    margin: 0;
+}
+
+.hero h2{
+    font-weight: normal;
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+.filter-nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.filter-nav a{
+    text-decoration: none;
+    padding: 9px;
+    color: #7c109a;
+    border: 1px solid #bb8dd3;
+    border-radius: 4px;
+    margin: 4px;    
+}
+
+.filter-nav a:hover {
+    background-color: #dbbce9;
+}
+
+.filter-nav .active{
+    background-color: #702acb;
+    color: #fff;
+}
+
+.filter-nav .active:hover{
+    background-color: #702acb;
+    cursor: default;
+}
+
+.animals{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.animal-card{
+    display: grid;
+    margin-bottom: 30px;
+    grid-template-columns: 200px 1fr;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.animal-card-photo{
+    order: 1;
+    grid-row: 1;
+    overflow: hidden;
+}
+
+.animal-card-photo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .3s ease-in-out;
+}
+
+.animal-card:hover img{
+    transform: rotate(20deg) scale(1.4);
+}
+
+.animal-card-text{
+    padding: 20px 25px;
+}
+
+.animal-card-text h2{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.8rem;
+}
+
+.animal-card-text small{
+    color: rgb(176, 176, 176);
+}
+
+.animal-card-text p{
+    margin: .8rem 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.primary-btn{
+    background: linear-gradient(#d147d1, #702acb);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.primary-btn:hover{
+    background: linear-gradient(#e35ea7, #d82eb9);
+}
