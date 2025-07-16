@@ -37,7 +37,7 @@ No frameworks. No libraries. 100% frontend magic.
 > Add images if available  
 | Homepage               | Animal Details           | Responsive View           |
 |------------------------|--------------------------|---------------------------|
-| ![](https://img.freepik.com/premium-psd/pet-adoption-landing-page-animal-adopt-website-homepage-hero-section-ui-ux-design-template_755018-2155.jpg) | ![](https://www.splashlearn.com/blog/wp-content/uploads/2024/04/fun-animal-facts-for-kids.jpg) | ![](https://i.ytimg.com/vi/ySFqpak1SVE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDqtOGZKCA-YQV8k1UNf5BOv4G05w) |
+| ![](https://img.freepik.com/premium-psd/pet-adoption-landing-page-animal-adopt-website-homepage-hero-section-ui-ux-design-template_755018-2155.jpg) | ![]() | ![](https://i.ytimg.com/vi/ySFqpak1SVE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDqtOGZKCA-YQV8k1UNf5BOv4G05w) |
 
 ---
 
