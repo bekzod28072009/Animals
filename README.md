@@ -34,9 +34,9 @@ No frameworks. No libraries. 100% frontend magic.
 
 ## 📸 Screenshots
  
-| Homepage               | Animal Details           | Responsive View           |
-|------------------------|--------------------------|---------------------------|
-| ![](https://img.freepik.com/premium-psd/pet-adoption-landing-page-animal-adopt-website-homepage-hero-section-ui-ux-design-template_755018-2155.jpg) | ![]() | ![]() |
+| Homepage               |
+|------------------------|
+| ![](https://img.freepik.com/premium-psd/pet-adoption-landing-page-animal-adopt-website-homepage-hero-section-ui-ux-design-template_755018-2155.jpg) |
 
 ---
 
@@ -47,3 +47,4 @@ No frameworks. No libraries. 100% frontend magic.
 ```bash
 git clone https://github.com/bekzod28072009/Animals.git
 cd animals-project
+```
